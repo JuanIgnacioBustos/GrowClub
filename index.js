@@ -95,3 +95,7 @@ const comprobarNuevoUserYpass = function (usuarioConArroba, passwordNumerica) {
     }
 }
 
+/////////////////////////////////////////////////////////////////////////////////////
+
+
+const frutas = []
