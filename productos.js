@@ -47,7 +47,7 @@ arrayProductos.push(sedas);
 
 console.log(arrayProductos);
 
-/* //Función con el menú de opciones: */
+/* //Función con un menú de opciones: */
 
 function menu() {
     alert("Bienvenido a Grow Club");
@@ -60,7 +60,7 @@ function menu() {
 function consultaProductos() {
     let nombre = parseInt(prompt("Ingrese el nombre del producto: "));
     let productos = arrayProductos.find(productos => productos.nombre === nombre);
-    console.log(productos);
+    console.log(arrayProductos);
 }
 
 /* Funcion para dar de alta un producto */
@@ -100,7 +100,6 @@ function modificacionProductos() {
     console.log(arrayProductos);
 }
 
-
 /* Ejecucion */
 
 let opcion = menu();
@@ -118,9 +117,12 @@ switch (opcion) {
         modificacionProductos();
         break;
     case 5:
+        ver();
+        break;
+    case 6:
         salir();
         break;
     default:
-        alert("Opción incorrecta");
+        alert("Opción erronea");
         break;
 }
