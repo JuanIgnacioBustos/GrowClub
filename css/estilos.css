@@ -1,0 +1,73 @@
+*{  
+    margin: 0%;
+    padding:0%;
+}
+
+
+html{
+        font-size: 62,5%;
+}
+
+body {
+    background-color:#e5e8e4;
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+}
+
+p{ 
+        font-size: 25px; 
+        color:#010101;
+}
+
+.logo {
+    width: 100%;
+}
+
+.bg-lav{
+    background: #e5e8e4;
+    background: rgb(247,247,247);
+    background: linear-gradient(0deg, rgba(247,247,247,0.7231267507002801) 5%, rgba(52,83,40,0.9164040616246498) 25%);
+}
+
+.btn-primary{
+    background-color:#e5e8e4;
+    border-color:#e5e8e4;
+    transition: all 0.25s ease-in-out;
+}
+
+.nav-link{
+    color:#e5e8e4;
+}
+
+.nav-item {
+    color:#e5e8e4;
+}
+
+.nav-item a {
+    color:#e5e8e4;
+}
+
+/* cards carrito */
+
+.imgProductos {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-top: 1rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.colorBoton {
+    color: white;
+    background-color: #85bb65;
+}
+
+.colorBoton:hover {
+    background-color: green;
+    color: white;
+}
