@@ -1,101 +1,226 @@
-const validacionDelUsuario = "Bienvenido userUno"
-let usuarioConEmail = "userUno"
-let password = "passUno"
-const nombre = "Juan"
-const usuarioConArroba = "userUno@growclub.com"
-const passwordNumerica = "pass123"
-
-const nombreDelUser = prompt ("Ingrese su nombre")
-const usuarioLoguear = prompt ("Ingrese su usuario")
-const passwordUsuario = prompt ("Ingrese su contraseña") 
-const validacionContrasenia = prompt ("Ingrese nueva contraseña que incluya numeros")
-const validacionUsuario = prompt ("Ingrese nuevo mail con arroba")
-const validacionUser = alert ("Bienvenido userUno@growclub.com")
-
-const comprobarNombre = ( nombreDelUser, nombre) => {
-
-if ( nombreDelUser == nombre){
-    console.log(nombre)
-} else {
-    alert ("Nombre erroneo")
-    }
-}
-comprobarNombre(nombre, nombreDelUser)
 
 
-const comprobarUsuario = ( usuarioLoguear, usuarioConEmail) =>{
-if ( usuarioLoguear == usuarioConEmail){
-    console.log(usuarioConEmail)
-} else {
-    alert ("Usuario erroneo")
-    }
-}
-comprobarUsuario(usuarioConEmail, usuarioLoguear)
+/* navbar */
 
-const comprobarContrasenia = (passwordUsuario, password) =>{
-if ( passwordUsuario == password){
-    console.log(password)
-} else {
-    alert ("Contraseña erronea")
-    }
-}
-comprobarContrasenia(password, passwordUsuario)
+const navbarindex = document.getElementById("navbarindex");
 
-const comprobarUsuarioyContrasenia = (usuarioConEmail, password) =>{
-if ( usuarioLoguear == usuarioConEmail && passwordUsuario == password){
-    alert (validacionDelUsuario)
-} else {
-    alert ("Usuario y Contraseña erroneos")
-    }
-}
-comprobarUsuarioyContrasenia(usuarioConEmail, password)
+navbarindex.innerHTML = `    <div id="navbarindex">
 
-const comprobarCaracteres = (password) =>{
+<nav class="navbar navbar-expand-lg bg-lav">
+    <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Productos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Carrito</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Contacto</a>
+            </li>
+            </ul>
+    </div>
+    </div>
+</nav>
+</div>`
 
-if ( 8 > password.length){
-    alert("Su contraseña es insegura")
-} else {
-    alert("Su contraseña es segura")
-    }
-}
-comprobarCaracteres(password)
+/* modo oscuro */
+const botonModos = document.querySelector("#claro-oscuro")
+const body = document.querySelector(".modo-claro")
 
-const comprobarElArroba = (usuarioConEmail) =>{
-
-    for ( let i = 0; i < usuarioConEmail; i++) {
-
-    if (usuarioConEmail[i].match(/[@]/)){
-        console.log(usuarioConEmail[i])
+botonModos.onclick = () => {
+    body.classList.toggle("modo-oscuro")
+    if ( body.className === "modo-claro modo-oscuro"){
+        botonModos.textContent = "Modo Claro"
     } else {
-        validacionUsuario
-        }
-    }
-}
-comprobarElArroba(usuarioConEmail)
-
-const comprobarNumericamente = (password) =>{
-
-for ( let i = 0; i < password; i++) {
-
-    if (password[i].match(/[0-9]/)){
-        console.log(password[i])
-    } else {
-        validacionContrasenia
-        }
-    }
-}
-comprobarNumericamente(password)
-
-const comprobarNuevoUserYpass = function (usuarioConArroba, passwordNumerica) {
-
-    if ( passwordUsuario == passwordNumerica && usuarioLoguear == usuarioConArroba ){
-    alert (validacionUser)
-}   else {
-    alert ("Su usuario o contraseña es incorrecto")
+        botonModos.textContent = "Modo oscuro"
     }
 }
 
-/////////////////////////////////////////////////////////////////////////////////////
 
+/* carrusel */
 
-const frutas = []
+const carouselExampleFade = document.getElementById("carouselExampleFade")
+
+carouselExampleFade.innerHTML = `        
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./multimedia/footerchill.jpg" class="d-block w-100" alt="growsoulcarrusel">
+    </div>
+    <div class="carousel-item">
+        <img src="./multimedia/caruseluno.jpg" class="d-block w-100" alt="carruselsemillas">
+    </div>
+    <div class="carousel-item">
+        <img src="./multimedia/caruselreparto.jpg" class="d-block w-100" alt="repartocarrusel">
+    </div>
+    </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">siguiente</span>
+        </button> `
+
+/* texto introduccion */
+
+const textoIntro = document.getElementsByClassName("textoIntro")
+
+textoIntro.innerHTML = `  
+    <h1>Soul GrowShop</h1>
+    <p>La tarea como tienda dedicada al cultivo no es solo vender y ofrecer una gran variedad de productos para jardinería y cultivo.</p>
+    <p>Su labor va más allá.</p>
+    <p>Quienes poseen este tipo de comercios o tiendas online, ayudan al cliente en sus compras, brindan asesoramiento y dan tips basados en su experiencia como adeptos al mundo del autocultivo.</p>
+    <p>Esta tarea es vital, ya que los consumidores se sienten acompañados durante el proceso, logran una compra satisfactoria y seguramente se harán clientes habituales de la tienda que mejor los pueda asesorar a la hora de comenzar a cultivar o a brindarles cuidados intensivos a sus plantas.</p></strong>
+    `
+
+/* carrito */
+
+class Producto {
+    constructor(id, nombre, precio, img) {
+        this.id = id;
+        this.nombre = nombre;
+        this.precio = precio;
+        this.img = img;
+        this.cantidad = 1; 
+    }
+}
+
+const combocompletoeden = new Producto(1, "Combo Completo de Cultivo Eden", 6100, "multimedia/promouno.jfif");
+const comboparafernalia = new Producto(2, "Combo Parafernalia", 2700, "multimedia/promodos.jfif");
+const combocarpa = new Producto(3, "Combo Carpa", 44000, "multimedia/promotres.jfif");
+const comboturbina = new Producto(4, "Combo Turbina Kit Indoor", 27000, "multimedia/promocuatro.png")
+const combomedidor = new Producto(5, "Combo Medidor Ph Digital", 3500, "multimedia/promocinco.jfif")
+const combofloracion = new Producto(6, "Combo Floracion", 3500, "multimedia/promoseis.jfif")
+const combopanelled = new Producto(7, "Combo Panel Led 300w", 61000, "multimedia/promosiete.jfif")
+const combomonster = new Producto(8, "Combo Monster", 8500, "multimedia/promoocho.png")
+
+const productos = [combocompletoeden, comboparafernalia, combocarpa, comboturbina, combomedidor, combofloracion, combopanelled, combomonster];
+
+let carrito = []; 
+
+if(localStorage.getItem("carrito")){
+    carrito = JSON.parse(localStorage.getItem("carrito"));
+}
+
+const contenedorProductos = document.getElementById("contenedorProductos");
+
+const presentarProductos = () => {
+    productos.forEach( producto => {
+        const card = document.createElement("div");
+        card.classList.add("col-xl-3", "col-md-6", "col-xs-12");
+        card.innerHTML = `
+            <div class="card">
+                <img src="${producto.img}" class="card-img-top imgProductos" alt="${producto.nombre}">
+            <div class= "card-body">
+                    <h5>${producto.nombre}</h5>
+                    <p> ${producto.precio} </p>
+                <button class="btn colorBoton" id="boton${producto.id}" > Agregar al Carrito </button>
+            </div>
+            </div>
+            `
+    contenedorProductos.appendChild(card);/* Para agregar productos al carrito:  */
+    const boton = document.getElementById(`boton${producto.id}`);
+        boton.addEventListener("click", () => {
+            agregarAlCarrito(producto.id);
+        })
+    })
+}
+presentarProductos();
+
+/* la función agregar al carrito:  */
+
+const agregarAlCarrito = (id) => {
+    const productoEnCarrito = carrito.find(producto => producto.id === id);
+        if(productoEnCarrito) {
+            productoEnCarrito.cantidad++;
+    }   else {
+        const producto = productos.find(producto => producto.id === id);
+            carrito.push(producto);
+    }
+    localStorage.setItem("carrito", JSON.stringify(carrito));/* local storage */
+    calcularTotal();
+}
+
+const contenedorCarrito = document.getElementById("contenedorCarrito");
+const verCarrito = document.getElementById("verCarrito")
+
+verCarrito.addEventListener("click", () => {
+    mostrarCarrito();
+})
+
+/* función para mostrar carrito:  */
+
+const mostrarCarrito = () => {
+    contenedorCarrito.innerHTML = "";
+    carrito.forEach(producto => {
+    const card = document.createElement("div");
+        card.classList.add("col-xl-3", "col-md-6", "col-xs-12");
+        card.innerHTML = `
+    <div class="card">
+        <img src="${producto.img}" class="card-img-top imgProductos" alt="${producto.nombre}">
+    <div class= "card-body">
+        <h5>${producto.nombre}</h5>
+            <p> ${producto.precio} </p>
+            <p> ${producto.cantidad} </p>
+        <button class="btn colorBoton" id="eliminar${producto.id}" > Eliminar Producto </button>
+    </div>
+    </div>
+    `
+    contenedorCarrito.appendChild(card);
+
+/* paraeliminar productos del carrito:  */
+const boton = document.getElementById(`eliminar${producto.id}`);
+    boton.addEventListener("click", () => {
+        eliminarDelCarrito(producto.id);
+    })
+
+})
+    calcularTotal();
+}
+
+/* Función que elimina el producto del carrito:  */
+
+const eliminarDelCarrito = (id) => {
+    const producto = carrito.find(producto => producto.id === id);
+    const indice = carrito.indexOf(producto);
+    carrito.splice(indice, 1);
+    mostrarCarrito();
+    localStorage.setItem("carrito", JSON.stringify(carrito));/* ls */
+}
+
+/* vaciar carrito */
+
+const vaciarCarrito = document.getElementById("vaciarCarrito");
+
+vaciarCarrito.addEventListener("click", () => {
+    eliminarTodoElCarrito();
+})
+
+/* la función que elimina todo del carrito */
+
+const eliminarTodoElCarrito = () => {
+    carrito = [];
+    mostrarCarrito();
+    localStorage.clear();/* local storage */
+}
+
+/* mostrar mensaje de compra */
+
+const total = document.getElementById("total");
+
+const calcularTotal = () => {
+    let totalCompra = 0;
+    carrito.forEach(producto => {
+        totalCompra += producto.precio * producto.cantidad;
+    })
+    total.innerHTML = `Total: $${totalCompra}`;
+}

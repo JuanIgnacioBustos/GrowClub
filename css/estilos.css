@@ -9,24 +9,51 @@ html{
 }
 
 body {
-    background-color:#e5e8e4;
-    font-family: 'Oswald', sans-serif;
+    background-color: white;
     overflow-x: hidden;
 }
 
-p{ 
-        font-size: 25px; 
-        color:#010101;
+h1 {
+    font-size: 75px;
 }
 
-.logo {
-    width: 100%;
+.modo-oscuro h1 {
+    color: #e5e8e4;
+}
+
+h2 {
+    text-align: center;
+}
+
+.modo-oscuro h2 {
+    color: #e5e8e4;
+}
+
+h3 {
+    text-align: center;
+}
+
+.modo-oscuro h3 {
+    color:#e5e8e4;
+}
+
+p{ 
+    font-size: 25px; 
+    color:#010101;
+}
+
+.modo-oscuro p{
+    color: #e5e8e4;
+}
+
+header {
+    background-color: white;
 }
 
 .bg-lav{
     background: #e5e8e4;
     background: rgb(247,247,247);
-    background: linear-gradient(0deg, rgba(247,247,247,0.7231267507002801) 5%, rgba(52,83,40,0.9164040616246498) 25%);
+    background: linear-gradient(180deg, rgba(247,247,247,0.7231267507002801) 0%, rgba(52,83,40,0.9164040616246498) 15%);
 }
 
 .btn-primary{
@@ -45,6 +72,11 @@ p{
 
 .nav-item a {
     color:#e5e8e4;
+}
+
+.textoIntro {
+    flex-direction: column;
+    text-align: center;
 }
 
 /* cards carrito */
@@ -71,3 +103,75 @@ p{
     background-color: green;
     color: white;
 }
+
+
+.parallax1 {    background-image: url("../multimedia/parallaxindex.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {    background-image: url("../multimedia/parallaxdos.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footerIndex{
+    background: rgb(247,247,247);
+    background: linear-gradient(180deg, rgba(247,247,247,0.7231267507002801) 0%, rgba(52,83,40,0.9164040616246498) 5%);
+    display : flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 5px;
+    list-style-type: none;
+    text-align: left;
+    font-size: 15px;
+}
+
+.titulofooter {
+    color: #e5e8e4;
+    padding: 5px;
+    margin-top: 15px;
+    list-style-type: none;
+    text-align: left;
+    font-size: 15px;
+}
+
+.instagramRSS img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.facebookRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.whatsappRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.contactoRss img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.modoOscurofooter {
+    padding: 5px;
+    margin: 5px;
+}
+
+.modo-oscuro {
+    background-color: black;
+}
+
