@@ -17,7 +17,7 @@ navbarindex.innerHTML = `    <div id="navbarindex">
                 <a class="nav-link" href="">Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="">Productos</a>
+                <a class="nav-link" href="./paginas/productos.html">Productos</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="">Carrito</a>

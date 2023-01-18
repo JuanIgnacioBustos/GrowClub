@@ -1,0 +1,22 @@
+[
+    {"nombre":"Maceta de tela geotextil Eden", "precio":500, "img":"../multimedia/macetaeden.png", "id":1, "cantidad":1},
+    {"nombre":"Combo Completo de Cultivo Eden","precio":6100, "img":"..//multimedia/promouno.jfif", "id":2, "cantidad":1},
+    {"nombre":"Combo Parafernalia","precio":2700, "img":"../multimedia/promodos.jfif", "id":3, "cantidad":1},
+    {"nombre":"Combo Carpa","precio":44000, "img":"../multimedia/promotres.jfif", "id":4, "cantidad":1},
+    {"nombre":"Combo Turbina Kit Indoor","precio":27000, "img":"../multimedia/promocuatro.png", "id":5, "cantidad":1},
+    {"nombre":"Combo Medidor Ph Digital","precio":3500, "img":"../multimedia/promocinco.jfif", "id":6, "cantidad":1},
+    {"nombre":"Combo Floracion","precio":3500, "img":"../multimedia/promoseis.jfif", "id":7, "cantidad":1},
+    {"nombre":"Combo Panel Led 300w","precio":61000, "img":"../multimedia/promosiete.jfif", "id":8, "cantidad":1},
+    {"nombre":"Combo Monster","precio":8500, "img":"../multimedia/promoocho.png", "id":9, "cantidad":1},
+    {"nombre":"Cooler Agroled","precio":7999, "img":"../multimedia/cooler.jfif", "id":10, "cantidad":1},
+    {"nombre":"Turbina Extractor Agroled","precio":17999, "img":"../multimedia/turbina.png", "id":11, "cantidad":1},
+    {"nombre":"Fertilizante de Floracion Eden","precio":1300, "img":"../multimedia/flora.jfif", "id":12, "cantidad":1},
+    {"nombre":"Fertilizante de Vegetacion Eden","precio":999, "img":"../multimedia/vege.jfif", "id":13, "cantidad":1},
+    {"nombre":"Jabon Potasico Eden","precio":500, "img":"../multimedia/potasico.jfif", "id":14, "cantidad":1},
+    {"nombre":"Aceite de Neem Eden","precio":7999, "img":"../multimedia/aceite.jfif", "id":15, "cantidad":1},
+    {"nombre":"Picador Grinder Lion Rolling","precio":3000, "img":"../multimedia/picador.jfif", "id":16, "cantidad":1},
+    {"nombre":"Bandeja dorada Lion Rolling Circus","precio":2499, "img":"../multimedia/bandeja,jfif", "id":17, "cantidad":1},
+    {"nombre":"Sedas 4:20 Lion Circus celulosa","precio":500, "img":"../multimedia/sedas.jfif", "id":18, "cantidad":1},
+    {"nombre":"Sustrato Eden liviano premium cultivo","precio":1500, "img":"../multimedia/sustrato.jfif", "id":19, "cantidad":1},
+    {"nombre":"Panel Led 300W Growtech","precio":41000, "img":"../multimedia/paneled.jfif", "id":20, "cantidad":1}
+]
