@@ -29,7 +29,8 @@ navbarindex.innerHTML = `    <div id="navbarindex">
     </div>
     </div>
 </nav>
-</div>`
+</div>
+`
 
 /* modo oscuro */
 const botonModos = document.querySelector("#claro-oscuro")
@@ -181,9 +182,8 @@ const mostrarCarrito = () => {
 const boton = document.getElementById(`eliminar${producto.id}`);
     boton.addEventListener("click", () => {
         eliminarDelCarrito(producto.id);
+        })
     })
-
-})
     calcularTotal();
 }
 
