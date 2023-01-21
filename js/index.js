@@ -95,14 +95,14 @@ class Producto {
     }
 }
 
-const combocompletoeden = new Producto(1, "Combo Completo de Cultivo Eden", 6100, "multimedia/promouno.jfif");
-const comboparafernalia = new Producto(2, "Combo Parafernalia", 2700, "multimedia/promodos.jfif");
-const combocarpa = new Producto(3, "Combo Carpa", 44000, "multimedia/promotres.jfif");
-const comboturbina = new Producto(4, "Combo Turbina Kit Indoor", 27000, "multimedia/promocuatro.png")
-const combomedidor = new Producto(5, "Combo Medidor Ph Digital", 3500, "multimedia/promocinco.jfif")
-const combofloracion = new Producto(6, "Combo Floracion", 3500, "multimedia/promoseis.jfif")
-const combopanelled = new Producto(7, "Combo Panel Led 300w", 61000, "multimedia/promosiete.jfif")
-const combomonster = new Producto(8, "Combo Monster", 8500, "multimedia/promoocho.png")
+const combocompletoeden = new Producto(1, "Combo Completo de Cultivo Eden", 6100, "./multimedia/promouno.jfif");
+const comboparafernalia = new Producto(2, "Combo Parafernalia", 2700, "./multimedia/promodos.jfif");
+const combocarpa = new Producto(3, "Combo Carpa", 44000, "./multimedia/promotres.jfif");
+const comboturbina = new Producto(4, "Combo Turbina Kit Indoor", 27000, "./multimedia/promocuatro.png")
+const combomedidor = new Producto(5, "Combo Medidor Ph Digital", 3500, "./multimedia/promocinco.jfif")
+const combofloracion = new Producto(6, "Combo Floracion", 3500, "./multimedia/promoseis.jfif")
+const combopanelled = new Producto(7, "Combo Panel Led 300w", 61000, "./multimedia/promosiete.jfif")
+const combomonster = new Producto(8, "Combo Monster", 8500, "./multimedia/promoocho.png")
 
 const productos = [combocompletoeden, comboparafernalia, combocarpa, comboturbina, combomedidor, combofloracion, combopanelled, combomonster];
 
