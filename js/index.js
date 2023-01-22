@@ -14,7 +14,7 @@ navbarindex.innerHTML = `    <div id="navbarindex">
     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href=".index.html">Inicio</a>
+                <a class="nav-link" href="">Inicio</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="./productos.html">Productos</a>
