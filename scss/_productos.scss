@@ -1,7 +1,7 @@
 
 :root {
-    --clr-main: #4b33a8;
-    --clr-main-light: #785ce9;
+    --clr-main: green;
+    --clr-main-light:#85bb65 ;
     --clr-white: #ececec;
     --clr-gray: #e2e2e2;
     --clr-red: #961818;
@@ -18,15 +18,10 @@ h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
     margin: 0;
     padding: 0;
 }
-/* 
-ul {
-    list-style-type: none;
-} */
-/* 
-a {
-    text-decoration: none;
-} */
 
+p {
+    color: #ececec;
+}
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -124,7 +119,7 @@ aside {
 }
 
 .texto-footer {
-    color: var(--clr-main-light);
+    color: red;
     font-size: .85rem;
 }
 
@@ -181,6 +176,6 @@ main {
 }
 
 .producto-agregar:hover {
-    background-color: var(--clr-main);
-    color: var(--clr-white);
+    background-color: orange;
+    color: black;
 }

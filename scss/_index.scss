@@ -15,10 +15,11 @@ body {
 
 h1 {
     font-size: 75px;
+    color: red;
 }
 
 .modo-oscuro h1 {
-    color: #e5e8e4;
+    color: red
 }
 
 h2 {
@@ -37,13 +38,8 @@ h3 {
     color:#e5e8e4;
 }
 
-p{ 
-    font-size: 25px; 
-    color:#010101;
-}
-
-.modo-oscuro p{
-    color: #010101;
+p { 
+    font-size: 25px; ;
 }
 
 header {
@@ -79,7 +75,12 @@ header {
     text-align: center;
 }
 
+
 /* cards carrito */
+
+.card p {
+    color: #010101;
+}
 
 .imgProductos {
     width: 150px;
@@ -171,7 +172,14 @@ header {
     margin: 5px;
 }
 
-.modo-oscuro {
-    background-color: black;
+.modo-oscuro main{
+    background-color: #010101;
 }
 
+.textoIntro p {
+    color: #010101;
+}
+
+.modo-claro p {
+    color: red;
+}

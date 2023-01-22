@@ -15,7 +15,6 @@
     {"titulo":"Jabon Potasico Eden", "imagen":"./multimedia/potasico.jfif", "id":14, "cantidad":1, "categoria" :{ "nombre": "Aditivos", "id": "Aditivos"},"precio":500},
     {"titulo":"Aceite de Neem Eden", "imagen":"./multimedia/aceite.jfif", "id":15, "cantidad":1, "categoria" :{ "nombre": "Aditivos", "id": "Aditivos"},"precio":7999},
     {"titulo":"Picador Grinder Lion Rolling", "imagen":"./multimedia/picador.jfif", "id":16, "cantidad":1, "categoria" :{ "nombre": "Parafernalia", "id": "Parafernalia"},"precio":3000},
-    {"titulo":"Bandeja dorada Lion Rolling Circus", "imagen":"./multimedia/bandeja,jfif", "id":17, "cantidad":1,  "categoria" :{ "nombre": "Parafernalia", "id": "Parafernalia"},"precio":2499},
     {"titulo":"Sedas 4:20 Lion Circus celulosa", "imagen":"./multimedia/sedas.jfif", "id":18, "cantidad":1, "categoria" :{ "nombre": "Parafernalia", "id": "Parafernalia"},"precio":500 },
     {"titulo":"Sustrato Eden liviano premium cultivo", "imagen":"./multimedia/sustrato.jfif", "id":19, "cantidad":1, "categoria" :{ "nombre": "Sustratos", "id": "Sustratos"},"precio":1500},
     {"titulo":"Panel Led 300W Growtech", "imagen":"./multimedia/paneled.jfif", "id":20, "cantidad":1,"categoria" :{ "nombre": "Iluminacion", "id": "Iluminacion"},"precio":41000}

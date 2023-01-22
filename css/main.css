@@ -10,10 +10,11 @@ body {
   overflow-x: hidden; }
 
 h1 {
-  font-size: 75px; }
+  font-size: 75px;
+  color: red; }
 
 .modo-oscuro h1 {
-  color: #e5e8e4; }
+  color: red; }
 
 h2 {
   text-align: center; }
@@ -28,11 +29,7 @@ h3 {
   color: #e5e8e4; }
 
 p {
-  font-size: 25px;
-  color: #010101; }
-
-.modo-oscuro p {
-  color: #010101; }
+  font-size: 25px; }
 
 header {
   background-color: white; }
@@ -61,6 +58,9 @@ header {
   text-align: center; }
 
 /* cards carrito */
+.card p {
+  color: #010101; }
+
 .imgProductos {
   width: 150px;
   height: 150px;
@@ -139,12 +139,18 @@ header {
   padding: 5px;
   margin: 5px; }
 
-.modo-oscuro {
-  background-color: black; }
+.modo-oscuro main {
+  background-color: #010101; }
+
+.textoIntro p {
+  color: #010101; }
+
+.modo-claro p {
+  color: red; }
 
 :root {
-  --clr-main: #4b33a8;
-  --clr-main-light: #785ce9;
+  --clr-main: green;
+  --clr-main-light:#85bb65 ;
   --clr-white: #ececec;
   --clr-gray: #e2e2e2;
   --clr-red: #961818; }
@@ -159,11 +165,8 @@ h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
   margin: 0;
   padding: 0; }
 
-ul {
-  list-style-type: none; }
-
-a {
-  text-decoration: none; }
+p {
+  color: #ececec; }
 
 .wrapper {
   display: grid;
@@ -250,7 +253,7 @@ aside {
   color: var(--clr-white); }
 
 .texto-footer {
-  color: var(--clr-main-light);
+  color: red;
   font-size: .85rem; }
 
 main {
@@ -299,8 +302,8 @@ main {
   transition: background-color .2s, color .2s; }
 
 .producto-agregar:hover {
-  background-color: var(--clr-main);
-  color: var(--clr-white); }
+  background-color: orange;
+  color: black; }
 
 .contenedor-carrito {
   display: flex;
