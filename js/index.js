@@ -14,16 +14,16 @@ navbarindex.innerHTML = `    <div id="navbarindex">
     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="">Inicio</a>
+                <a class="nav-link" href=".index.html">Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./paginas/productos.html">Productos</a>
+                <a class="nav-link" href="./productos.html">Productos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="">Carrito</a>
+                <a class="nav-link" href="./carrito.html">Carrito</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="">Contacto</a>
+                <a class="nav-link" href="./contacto.html">Contacto</a>
             </li>
             </ul>
     </div>
