@@ -10,6 +10,10 @@ closeMenu.addEventListener("click", () => {
     aside.classList.remove("aside-visible");
 })
 
+
+/* formulario */
+
+
 const $form = document.querySelector('#form')
 const $buttonMailto = document.querySelector('#trucazo')
 

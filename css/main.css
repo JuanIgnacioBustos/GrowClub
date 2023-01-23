@@ -14,7 +14,7 @@ h1 {
   color: red; }
 
 .modo-oscuro h1 {
-  color: red; }
+  color: white; }
 
 h2 {
   text-align: center; }
@@ -35,9 +35,7 @@ header {
   background-color: white; }
 
 .bg-lav {
-  background: #e5e8e4;
-  background: #f7f7f7;
-  background: linear-gradient(180deg, rgba(247, 247, 247, 0.723127) 0%, rgba(52, 83, 40, 0.916404) 15%); }
+  background-color: green; }
 
 .btn-primary {
   background-color: #e5e8e4;
@@ -80,14 +78,6 @@ header {
   background-color: green;
   color: white; }
 
-.parallax1 {
-  background-image: url("../multimedia/parallaxinicio.jpg");
-  height: 250px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
 .parallax2 {
   background-image: url("../multimedia/parallaxdos.jpg");
   height: 250px;
@@ -97,8 +87,7 @@ header {
   background-size: cover; }
 
 .footerIndex {
-  background: #f7f7f7;
-  background: linear-gradient(180deg, rgba(247, 247, 247, 0.723127) 0%, rgba(52, 83, 40, 0.916404) 5%);
+  background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: end;
@@ -146,7 +135,7 @@ header {
   color: #010101; }
 
 .modo-claro p {
-  color: red; }
+  color: green; }
 
 :root {
   --clr-main: green;
