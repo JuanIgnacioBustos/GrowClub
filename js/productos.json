@@ -1,5 +1,4 @@
 [
-    {"titulo":"Maceta de tela geotextil Eden", "imagen":"../multimedia/macetaeden.png", "id":1, "cantidad":1, "categoria" :{ "nombre": "Accesorios", "id": "Accesorios"},"precio":500},
     {"titulo":"Combo Completo de Cultivo Eden", "imagen":"./multimedia/promouno.jfif", "id":2, "cantidad":1, "categoria" :{ "nombre": "Sustratos", "id": "Sustratos"},"precio":6100},
     {"titulo":"Combo Parafernalia", "imagen":"./multimedia/promodos.jfif", "id":3, "cantidad":1, "categoria" :{ "nombre": "Oferta", "id": "Oferta"},"precio":2700},
     {"titulo":"Combo Carpa", "imagen":"./multimedia/promotres.jfif", "id":4, "cantidad":1, "categoria" :{ "nombre": "Accesorios", "id": "Accesorios"},"precio":44000},
