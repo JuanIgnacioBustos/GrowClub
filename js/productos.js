@@ -102,7 +102,7 @@ function agregarAlCarrito(e) {
         onClick: function(){}
     }).showToast();
 
-    const idBoton = e.currentTarget.id;
+    const idBoton = Number(e.currentTarget.id);
     const productoAgregado = productos.find(producto => producto.id === idBoton);
     if(productosEnCarrito.some(producto => producto.id === idBoton)) {
         const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
