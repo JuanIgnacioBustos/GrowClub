@@ -34,10 +34,6 @@ function cargarproductosCarrito() {
                     <small>Precio</small>
                     <p>$${productos.precio}</p>
                 </div>
-                <div class="carrito-productos-subtotal">
-                    <small>Subtotal</small>
-                    <p>$${productos.precio * productos.cantidad}</p>
-                </div>
                 <button class="carrito-productos-eliminar" id="${productos.id}"><i class="bi bi-trash-fill"></i></button>
             `;
             contenedorCarritoproductos.append(div);

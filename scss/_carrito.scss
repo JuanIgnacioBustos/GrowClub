@@ -1,3 +1,20 @@
+
+:root {
+    --clr-main: green;
+    --clr-main-light:#85bb65 ;
+    --clr-white: #ececec;
+    --clr-gray: #e2e2e2;
+    --clr-red: #961818;
+}
+
+p {
+    color: black;
+}
+
+.carrito-producto-imagen {
+    width: 50%;
+}
+
 .contenedor-carrito {
     display: flex;
     flex-direction: column;
